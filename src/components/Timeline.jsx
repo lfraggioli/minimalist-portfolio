@@ -14,6 +14,7 @@ function Timeline() {
           </h2>
           {timeline.map((item) => (
             <TimelineItem
+              key={item.id}
               year={item.year}
               title={item.title}
               duration={item.duration}

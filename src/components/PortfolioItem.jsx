@@ -19,6 +19,13 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
             </span>
           ))}
         </p>
+        <div className="py-2">
+          <a href={link}>
+            <button className="flex bg-stone-900 text-white px-4 justify-start text-sm py-0.5 rounded-md">
+              Code
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );

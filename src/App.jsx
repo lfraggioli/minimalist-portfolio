@@ -11,9 +11,7 @@ function App() {
         <Intro />
         <Portfolio />
         <Timeline />
-
         <Contact />
-
         <Footer />
       </div>
     </>

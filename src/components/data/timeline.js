@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     year: 2020,
     title: "Argentina Programa - 2020",
     duration: "1 año",
@@ -7,6 +8,7 @@ export default [
       "Primeros conceptos de lógica y programación orientada a objetos. Aprendí JavaScript y un poco de Ruby, con ejercicios orientados a entender las estructuras de datos y funciones básicas.",
   },
   {
+    id: 2,
     year: 2020,
     title: "freeCodeCamp.org",
     duration: "1 mes",
@@ -14,6 +16,7 @@ export default [
       "Aprendí HTML, y CSS. Hice proyectos de maquetado, y aprendí a usar la plataforma de Codepen.io para cargar algunos proyectos.",
   },
   {
+    id: 3,
     year: 2021,
     title: "Argentina Programa - Segunda etapa",
     duration: "6 meses",
@@ -22,6 +25,7 @@ export default [
       "Conceptos básicos de React, y TypeScript. Profundicé en JavaScript, y aprendí a usar NodeJS, Express, y MongoDB.",
   },
   {
+    id: 4,
     year: 2022,
     title:
       "Tecnicatura Universitaria en Programación - Universidad Tecnológica Nacional",
@@ -31,6 +35,7 @@ export default [
       "Aprendí a usar C++ y Java, lo cual me dió más comprensión en la lógica de la programación orientada a objetos gracias a lenguajes más complejos. También estudié cómo usar bases de datos relacionales. - Cursando actualmente ",
   },
   {
+    id: 5,
     year: 2022,
     title:
       "Curso de programación Full Stack - CPCI (Colegio Provincial de Ciencias Informáticas)",
@@ -40,6 +45,7 @@ export default [
       "Curso intensivo donde realice la app llamada Tierra del Juego",
   },
   {
+    id: 6,
     year: 2023,
     title:
       "Bootcamp de desarrollo web Full Stack - Henry Institute - soyHenry.com",

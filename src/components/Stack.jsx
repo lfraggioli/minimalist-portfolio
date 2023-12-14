@@ -13,7 +13,7 @@ function Stack() {
         <div className="columns-7 items-center gap-4 justify-center flex-row text-center pt-7 pb-2 text-slate-100">
           {images.map((image, index) => (
             <img
-              className="mt-3 mx-0"
+              className="pt-3 mb-3 mx-auto"
               key={index}
               src={image.src}
               alt={image.alt}

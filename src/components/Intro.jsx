@@ -11,13 +11,13 @@ function Avatar() {
 }
 function Intro() {
   return (
-    <div className="">
-      <div className="flex columns-2 gap-0 items-start justify-center pt-12 pb-5 text-slate-100">
+    <div id="home">
+      <div className="flex columns-2 gap-0 items-start justify-center pt-16 pb-5 text-slate-100">
         <div className="text-center max-w-xl ml-auto">
           <h1 className="text-6xl md:text-7xl mb-1 md:mb-5 pb-3 text-left font-black ">
             Hi, I'm Lucas Fraggioli
           </h1>
-          <h3 className="text-base text-left md:text-2xl mb-3 font-semibold text-slate-300">
+          <h3 className="text-base text-left md:text-2xl mb-3 font-semibold text-[#9568ff] ">
             Full-Stack Developer / Web Artisan
           </h3>
           <p className="text-sm text-left pt-3 font-normal text-gray-300">

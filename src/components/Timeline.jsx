@@ -4,13 +4,13 @@ import TimelineItem from "./TimelineItem";
 
 function Timeline() {
   return (
-    <>
-      <div className="text-center pt-20 "> </div>
+    <div id="path">
+      <div className="text-center pt-10 "> </div>
 
       <div className="flex flex-column md:flex-row  justify-center my-20">
         <div className="w-full md:w-7/12 ">
-          <h2 className="text-2xl font-bold subpixel-antialiased mb-5  text-sky-400">
-            My path in the world of programming so far
+          <h2 className="text-3xl font-bold text-slate-200 subpixel-antialiased mb-5 ">
+            My path in the world of programming
           </h2>
           {timeline.map((item) => (
             <TimelineItem
@@ -24,7 +24,7 @@ function Timeline() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

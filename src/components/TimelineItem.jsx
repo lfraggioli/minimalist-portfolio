@@ -10,12 +10,12 @@ function TimelineItem({ year, title, duration, stack, description }) {
             <span className="inline-block px-2 py-1 font-semibold text-white bg-stone-900 rounded-md">
               {year}
             </span>
-            <h3 className="text-lg font-semibold  text-slate-50">{title}</h3>
-            <div className="my-1 text-sm font-normal leading-none text-stone-300">
+            <h3 className="text-lg font-semibold  text-[#8979FE]">{title}</h3>
+            <div className="my-1 text-sm font-normal leading-none text-slate-300">
               {duration}
             </div>
           </p>
-          <p className="my-2 text-base font-normal  text-slate-300">
+          <p className="my-2 text-base font-normal  text-slate-400">
             {description}
           </p>
         </li>

@@ -21,11 +21,9 @@ function Intro() {
             Full-Stack Developer / Web Artisan
           </h3>
           <p className="text-sm text-left pt-3 font-normal text-gray-300">
-            As a programmer, I have a solid background in object-oriented
-            programming, with a focus on JavaScript. I took my first steps in
-            programming by delving into more challenging languages such as JAVA
-            and C++, laying the groundwork for a solid foundation in my coding
-            journey.
+            I took my first steps in programming by delving into more
+            challenging languages such as JAVA and C++, laying the groundwork
+            for a solid foundation in my coding journey.
           </p>
           <p className="text-sm text-left font-normal text-gray-300">
             I'm building my version of the world crafted with code, where each

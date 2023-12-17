@@ -9,8 +9,8 @@ function Portfolio() {
           Main projects
         </h2>
       </div>
-      <div className="flex flex-col max-w-full mx-auto md:flex-row items-center justify-evenly">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+      <div className="flex flex-col max-w-full mx-auto md:flex-row items-center justify-around">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
           {portfolio.map((item) => (
             <PortfolioItem
               title={item.title}

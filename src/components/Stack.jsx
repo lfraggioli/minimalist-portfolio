@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "./data/stackImages";
+import { images, favTools } from "./data/stackImages";
 function Stack() {
   return (
     <div className="pt-10" id="stack">
@@ -7,27 +7,41 @@ function Stack() {
         <div className="px-20">
           <div className="flex items-center gap-2 justify-center flex-col text-center pt-1 text-slate-100">
             <div className="items-center mx-auto columns-1 gap-0 justify-center align-middle">
-              <h3 className="text-3xl text-slate-200 font-bold">
-                My (current) stack
-              </h3>
+              <h3 className="text-3xl text-slate-200 font-bold">Tech stack</h3>
             </div>
-            <p className="text-sm mb-2">
-              It'll change with time. Stay tuned for updates!
-            </p>
+            <p className="text-sm mt-3">My personal favourites </p>
+            <div className="columns-5 items-center gap-4 justify-center flex-row text-center pt-1 pb-2 text-slate-100">
+              {favTools.map((image, index) => (
+                <a href={image.link} target="a_blank">
+                  <img
+                    className="pt-3 mb-3 mx-auto cursor-pointer hover:ease-in duration-150 hover:scale-125"
+                    key={index}
+                    src={image.src}
+                    alt={image.alt}
+                    width={image.width}
+                    height={image.height}
+                  />
+                </a>
+              ))}
+            </div>
           </div>
-          <div className="columns-7 items-center gap-4 justify-center flex-row text-center pt-7 pb-2 text-slate-100">
-            {images.map((image, index) => (
-              <a href={image.link} target="a_blank">
-                <img
-                  className="pt-3 mb-3 mx-auto cursor-pointer hover:ease-in duration-75 hover:scale-110"
-                  key={index}
-                  src={image.src}
-                  alt={image.alt}
-                  width={image.width}
-                  height={image.height}
-                />
-              </a>
-            ))}
+          <div className="text-white justify-center align-middle columns-1 items-center">
+            <p className="text-sm pt-3 border-t-2  border-slate-300/20 mt-2 text-center">
+              Other tools that I've worked with:
+            </p>
+            <div className="columns-9 items-center gap-4 justify-center flex-row text-center pt-2 pb-2 text-slate-100">
+              {images.map((image, index) => (
+                <a href={image.link} target="a_blank">
+                  <img
+                    className="pt-3 mb-3 mx-auto cursor-pointer hover:ease-in duration-150 hover:scale-110"
+                    key={index}
+                    src={image.src}
+                    alt={image.alt}
+                    width="50"
+                  />
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>

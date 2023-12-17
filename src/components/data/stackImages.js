@@ -1,24 +1,10 @@
-const images = [
+export const favTools = [
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     alt: "JavaScript",
     width: "75",
     height: "75",
     link: "https://developer.mozilla.org/es/docs/Web/JavaScript",
-  },
-  {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    alt: "Java",
-    width: "75",
-    height: "75",
-    link: "https://docs.oracle.com/en/java/",
-  },
-  {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg",
-    alt: "PHP",
-    width: "75",
-    height: "75",
-    link: "https://www.php.net/docs.php",
   },
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
@@ -42,6 +28,31 @@ const images = [
     link: "https://nodejs.org/docs/latest/api/",
   },
   {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    alt: "TailwindCSS",
+    width: "75",
+    height: "75",
+    link: "https://tailwindcss.com/docs",
+  },
+];
+
+const images = [
+  {
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    alt: "Java",
+    width: "75",
+    height: "75",
+    link: "https://docs.oracle.com/en/java/",
+  },
+  {
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg",
+    alt: "PHP",
+    width: "75",
+    height: "75",
+    link: "https://www.php.net/docs.php",
+  },
+
+  {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg",
     alt: "NPM",
     width: "75",
@@ -55,13 +66,7 @@ const images = [
     height: "75",
     link: "https://sequelize.org/docs/v6/",
   },
-  {
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-    alt: "TailwindCSS",
-    width: "75",
-    height: "75",
-    link: "https://tailwindcss.com/docs",
-  },
+
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-plain.svg",
     alt: "MaterialUI",

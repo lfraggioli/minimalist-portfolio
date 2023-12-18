@@ -68,11 +68,18 @@ const images = [
   },
 
   {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-plain.svg",
-    alt: "MaterialUI",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
+    alt: "Bootstrap",
     width: "75",
     height: "75",
-    link: "https://mui.com/material-ui/getting-started/",
+    link: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+  },
+  {
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+    alt: "C++",
+    width: "75",
+    height: "75",
+    link: "https://devdocs.io/cpp/",
   },
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",

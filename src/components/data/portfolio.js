@@ -17,10 +17,10 @@ export default [
     stack: ["Astro", "React", "TypeScript", "TailwindCSS"],
     link: "https://github.com/lfraggioli/spaceX-launches",
   },
-  // {
-  //   title: "Tierra del Juego",
-  //   imgUrl: "/assets/TDJ_demo.jpg",
-  //   stack: ["PHP", "Laravel", "TypeScript", "Blade", "MySQL"],
-  //   link: "",
-  // },
+  {
+    title: "Tierra del Juego",
+    imgUrl: "/assets/tdj.jpg",
+    stack: ["PHP", "Laravel", "TypeScript", "Bootstrap", "Blade", "MySQL"],
+    link: "",
+  },
 ];

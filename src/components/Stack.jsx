@@ -29,7 +29,7 @@ function Stack() {
             <p className="text-sm pt-3 border-t-2  border-slate-300/20 mt-2 text-center">
               Other tools that I've worked with:
             </p>
-            <div className="columns-9 items-center gap-4 justify-center flex-row text-center pt-2 pb-2 text-slate-100">
+            <div className="columns-5 items-center gap-3 justify-center flex-row text-center pt-2 pb-2 text-slate-100">
               {images.map((image, index) => (
                 <a href={image.link} target="a_blank">
                   <img

@@ -10,7 +10,7 @@ import LittleProjects from "./components/LittleProjects";
 function App() {
   return (
     <>
-      <div className="App font-poppins bg-gradient-to-r from-[#0d1124] to-[#171923]">
+      <div className="App font-poppins bg-gradient-to-r from-[#0b0d18] to-[#0d0e16]">
         <Navbar />
         <div className="max-w-5xl align-middle mx-auto justify-center">
           <Intro />

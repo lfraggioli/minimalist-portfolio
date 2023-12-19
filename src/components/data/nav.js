@@ -1,19 +1,19 @@
 export default [
   {
     id: "#home",
-    title: "Home",
+    title: "home",
   },
   {
     id: "#stack",
-    title: "Stack",
+    title: "stack",
   },
   {
     id: "#projects",
-    title: "Projects",
+    title: "projects",
   },
 
   {
     id: "#path",
-    title: "Path",
+    title: "path",
   },
 ];

@@ -7,13 +7,21 @@ function Navbar() {
         {nav.map((item) => (
           <div
             key={item.id}
-            className="text-base ml-auto font-semibold py-4 ease-in duration-75 hover:text-[#D12EFF] hover:-translate-y-0.5 text-stone-300"
+            className="text-base ml-auto font-bold py-4 ease-in duration-75 hover:text-[#D12EFF] hover:-translate-y-0.5 text-stone-300"
           >
             <a href={item.id}>
               <h2>{item.title}</h2>
             </a>
           </div>
         ))}
+        <div
+          key="#contact"
+          className="text-base font-semibold py-4 ease-in duration-75 hover:text-[#F2A81D] hover:-translate-y-0.5 text-stone-300"
+        >
+          <a href="#contact">
+            <h2>contact me</h2>
+          </a>
+        </div>
       </div>
     </div>
   );

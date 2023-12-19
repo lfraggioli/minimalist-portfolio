@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectItem = ({ name, imgUrl, stack, link }) => {
   return (
-    <div className="mx-2 mb-3 hover:ease-in-out duration-200 hover:scale-105 bg-slate-900/30 border-slate-500/75 border-2 rounded-md overflow-hidden">
+    <div className="mx-2 mb-3 hover:ease-in-out duration-200 hover:scale-105 bg-gray-900 border-slate-500/75 border-0 rounded-md overflow-hidden">
       <img
         src={imgUrl}
         alt="little project"
@@ -10,7 +10,7 @@ const ProjectItem = ({ name, imgUrl, stack, link }) => {
       />
       <div className="w-full p-2 mx-auto">
         <div className="columns-2 items-center mx-auto justify-center flex">
-          <h3 className="text-lg md:text-2xl text-center cursor-auto text-slate-300 mb-2 md:mb-4 font-bold">
+          <h3 className="text-lg md:text-xl text-center cursor-auto text-slate-300 mb-2 md:mb-2 font-bold">
             {name}
           </h3>
           <div className="py-2 px-5 mb-4">
@@ -38,9 +38,9 @@ const ProjectItem = ({ name, imgUrl, stack, link }) => {
           </div>
         </div>
 
-        <p className="flex flex-wrap mx-auto gap-2 flex-row justify-center text-xs md:text-sm">
+        <p className="flex flex-wrap mx-auto gap-2 flex-row text-gray-300 justify-center text-xs md:text-xs">
           {stack.map((item) => (
-            <span className=" px-2 py-1 font-semibold bg-slate-300/50 border-2 mb-3 rounded-lg">
+            <span className=" px-2 py-1 font-semibold bg-slate-950 mb-3  shadow-md rounded-lg">
               {item}
             </span>
           ))}

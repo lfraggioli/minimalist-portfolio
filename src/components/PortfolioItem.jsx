@@ -2,7 +2,7 @@ import React from "react";
 
 function PortfolioItem({ title, imgUrl, stack, link }) {
   return (
-    <div className="mx-2 mb-3 hover:ease-in-out duration-200 hover:scale-105 bg-slate-900/30 border-slate-500/75 border-2 rounded-md overflow-hidden">
+    <div className="mx-2 mb-3 hover:ease-in-out duration-200 hover:scale-105 bg-gray-800 border-slate-400/70 border-0 rounded-md overflow-hidden">
       <img
         src={imgUrl}
         alt="portfolio project"
@@ -13,7 +13,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
           <h3 className="text-lg md:text-2xl text-center cursor-auto text-slate-300 mb-2 md:mb-4 font-bold">
             {title}
           </h3>
-          <div className="py-2 px-5 mb-4">
+          <div className="py-2 px-5 mb-2">
             <a href={link} className="cursor-pointer" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,13 +37,15 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
             </a>
           </div>
         </div>
-        <p className="flex flex-wrap mx-auto gap-2 flex-row justify-center text-xs md:text-sm">
-          {stack.map((item) => (
-            <span className=" px-2 py-1 font-semibold bg-slate-300/50 border-2 mb-3 rounded-lg">
-              {item}
-            </span>
-          ))}
-        </p>
+        <div>
+          <p className="flex flex-wrap mx-auto gap-1 flex-row justify-center text-xs md:text-xs">
+            {stack.map((item) => (
+              <span className=" px-2 py-1 font-medium text-slate-300 bg-gray-900 shadow-lg border-0 mb-3 rounded-lg">
+                {item}
+              </span>
+            ))}
+          </p>
+        </div>
       </div>
     </div>
   );

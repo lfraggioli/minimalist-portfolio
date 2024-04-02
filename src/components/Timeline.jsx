@@ -4,7 +4,7 @@ import TimelineItem from "./TimelineItem";
 
 function Timeline() {
   return (
-    <div id="path">
+    <div id="edu">
       <div className="text-center pt-2 "> </div>
       <div className="flex flex-column md:flex-row justify-center mt-20 mb-16">
         <div className="w-full md:w-7/12 ">

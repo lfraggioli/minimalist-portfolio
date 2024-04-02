@@ -19,7 +19,7 @@ function Intro() {
             Hi, I'm Lucas Fraggioli
           </h1>
           <h3 className="text-base text-left md:text-2xl mb-3 font-semibold text-[#9568ff] ">
-            Full-Stack Developer / Web Artisan
+            Full-Stack Developer | UX/UI Designer
           </h3>
           <p className="text-sm text-left pt-3 font-normal text-gray-300">
             I took my first steps in programming by delving into more

@@ -1,6 +1,6 @@
 export default [
   {
-    title: "Taskify",
+    title: "Taskify (Trello clone)",
     imgUrl: "/assets/Trello.png",
     stack: [
       "NextJS",
@@ -10,8 +10,10 @@ export default [
       "Prisma",
       "PostGreSQL",
       "Supabase",
+      "Stripe",
     ],
-    description: "A Trello clone with drag and drop functionality",
+    description:
+      "A Trello clone with drag and drop functionality, authentication, and payment integration.",
     link: "https://github.com/lfraggioli/trello-clone",
   },
 
@@ -25,7 +27,7 @@ export default [
   {
     title: "SpaceX Launches",
     imgUrl: "/assets/spaceX_launches.png",
-    stack: ["Astro", "React", "TypeScript", "TailwindCSS"],
+    stack: ["Astro", "React", "TypeScript", "TailwindCSS", "SpaceX API"],
     description: "A web app that displays SpaceX launches",
     link: "https://github.com/lfraggioli/spaceX-launches",
   },

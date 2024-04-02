@@ -2,13 +2,13 @@ import React from "react";
 
 function PortfolioItem({ title, imgUrl, stack, description, link }) {
   return (
-    <div className="mx-2 mb-3 hover:ease-in-out duration-200 hover:scale-105 bg-gray-800 border-slate-400/70 border-0 rounded-md overflow-hidden">
+    <div className="mx-2 mb-3 hover:ease-in-out duration-200 hover:scale-105 h-auto bg-gray-800 border-slate-400/70 border-0 rounded-md overflow-hidden">
       <img
         src={imgUrl}
         alt="portfolio project"
-        className="w-full h-24 md:h-36 object-cover "
+        className="w-full h-auto md:h-40 object-cover "
       />
-      <div className="w-full p-2 ">
+      <div className="w-full h-auto p-2 ">
         <div className=" items-center mx-auto justify-center flex">
           <h3 className="text-lg md:text-xl text-center cursor-auto text-slate-300 mb-2 md:mb-2 font-bold">
             {title}
@@ -38,16 +38,18 @@ function PortfolioItem({ title, imgUrl, stack, description, link }) {
           </div>
         </div>
         <div>
-          <p className="flex  gap-1 columns-4 justify-center text-xs md:text-xs">
+          <p className="grid  grid-cols-5 gap-1 mx-4 justify-center text-xs md:text-xs mb-4">
             {stack.map((item) => (
-              <span className=" px-2 py-1 font-medium text-slate-300 bg-gray-900 shadow-lg border-0 mb-3 rounded-lg">
+              <span className=" p-1 text-center font-normal text-slate-400 bg-gray-900 rounded-lg">
                 {item}
               </span>
             ))}
           </p>
         </div>
-        <div className="flex flex-wrap justify-center text-base">
-          <p className="font-normal text-slate-400">{description}</p>
+        <div className="flex bg-gray-950/50 mx-4 mb-2 rounded-md">
+          <div className="flex font-normal text-sm  text-center p-2 text-slate-50">
+            {description}
+          </div>
         </div>
       </div>
     </div>

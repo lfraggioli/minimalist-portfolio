@@ -1,6 +1,6 @@
 import React from "react";
 
-function PortfolioItem({ title, imgUrl, stack, link }) {
+function PortfolioItem({ title, imgUrl, stack, description, link }) {
   return (
     <div className="mx-2 mb-3 hover:ease-in-out duration-200 hover:scale-105 bg-gray-800 border-slate-400/70 border-0 rounded-md overflow-hidden">
       <img
@@ -9,7 +9,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
         className="w-full h-24 md:h-36 object-cover "
       />
       <div className="w-full p-2 ">
-        <div className="columns-2 items-center mx-auto justify-center flex">
+        <div className=" items-center mx-auto justify-center flex">
           <h3 className="text-lg md:text-xl text-center cursor-auto text-slate-300 mb-2 md:mb-2 font-bold">
             {title}
           </h3>
@@ -18,8 +18,8 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon icon-tabler icon-tabler-brand-github-filled duration-200 hover:scale-125"
-                width={24}
-                height={24}
+                width={16}
+                height={16}
                 viewBox="0 0 24 24"
                 strokeWidth={2}
                 stroke="currentColor"
@@ -38,13 +38,16 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
           </div>
         </div>
         <div>
-          <p className="flex flex-wrap mx-auto gap-1 flex-row justify-center text-xs md:text-xs">
+          <p className="flex  gap-1 columns-4 justify-center text-xs md:text-xs">
             {stack.map((item) => (
               <span className=" px-2 py-1 font-medium text-slate-300 bg-gray-900 shadow-lg border-0 mb-3 rounded-lg">
                 {item}
               </span>
             ))}
           </p>
+        </div>
+        <div className="flex flex-wrap justify-center text-base">
+          <p className="font-normal text-slate-400">{description}</p>
         </div>
       </div>
     </div>

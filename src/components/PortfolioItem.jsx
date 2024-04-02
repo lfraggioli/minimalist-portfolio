@@ -6,11 +6,11 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
       <img
         src={imgUrl}
         alt="portfolio project"
-        className="w-full h-36 md:h-64 object-cover "
+        className="w-full h-24 md:h-36 object-cover "
       />
       <div className="w-full p-2 ">
         <div className="columns-2 items-center mx-auto justify-center flex">
-          <h3 className="text-lg md:text-2xl text-center cursor-auto text-slate-300 mb-2 md:mb-4 font-bold">
+          <h3 className="text-lg md:text-xl text-center cursor-auto text-slate-300 mb-2 md:mb-2 font-bold">
             {title}
           </h3>
           <div className="py-2 px-5 mb-2">

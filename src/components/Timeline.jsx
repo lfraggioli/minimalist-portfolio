@@ -9,7 +9,7 @@ function Timeline() {
       <div className="flex flex-column md:flex-row justify-center mt-20 mb-16">
         <div className="w-full md:w-7/12 ">
           <h2 className="text-3xl font-bold text-slate-200 subpixel-antialiased mb-5 ">
-            My path in the world of programming
+            IT Education{" "}
           </h2>
           {timeline.map((item) => (
             <TimelineItem

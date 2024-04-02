@@ -14,11 +14,11 @@ export const favTools = [
     link: "https://react.dev/learn",
   },
   {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg",
-    alt: "Laravel",
+    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg",
+    alt: "Figma",
     width: "75",
     height: "75",
-    link: "https://laravel.com/docs",
+    link: "https://www.figma.com/",
   },
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/nodejs/nodejs-plain.svg",
@@ -26,13 +26,6 @@ export const favTools = [
     width: "75",
     height: "75",
     link: "https://nodejs.org/docs/latest/api/",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-    alt: "TailwindCSS",
-    width: "75",
-    height: "75",
-    link: "https://tailwindcss.com/docs",
   },
 ];
 
@@ -45,35 +38,13 @@ const images = [
     link: "https://docs.oracle.com/en/java/",
   },
   {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg",
-    alt: "PHP",
+    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/nextjs/nextjs-plain.svg",
+    alt: "NextJs",
     width: "75",
     height: "75",
-    link: "https://www.php.net/docs.php",
+    link: "https://nextjs.org/docs/getting-started",
   },
 
-  {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg",
-    alt: "NPM",
-    width: "75",
-    height: "75",
-    link: "https://docs.npmjs.com/",
-  },
-  {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sequelize/sequelize-plain.svg",
-    alt: "Sequelize",
-    width: "75",
-    height: "75",
-    link: "https://sequelize.org/docs/v6/",
-  },
-
-  {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-    alt: "Bootstrap",
-    width: "75",
-    height: "75",
-    link: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
-  },
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
     alt: "C++",
@@ -81,12 +52,27 @@ const images = [
     height: "75",
     link: "https://devdocs.io/cpp/",
   },
+
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
     alt: "Redux",
     width: "75",
     height: "75",
     link: "https://redux.js.org/introduction/getting-started",
+  },
+  {
+    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/prisma/prisma-original.svg",
+    alt: "Prisma",
+    width: "75",
+    height: "75",
+    link: "https://www.prisma.io/docs/",
+  },
+  {
+    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg",
+    alt: "C#",
+    width: "75",
+    height: "75",
+    link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
   },
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
@@ -108,6 +94,13 @@ const images = [
     width: "75",
     height: "75",
     link: "https://www.postgresql.org/",
+  },
+  {
+    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg",
+    alt: "TailwindCSS",
+    width: "75",
+    height: "75",
+    link: "https://tailwindcss.com/docs",
   },
   // Agrega más objetos de imagen aquí
 ];

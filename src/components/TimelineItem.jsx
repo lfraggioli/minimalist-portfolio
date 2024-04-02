@@ -15,9 +15,18 @@ function TimelineItem({ year, title, duration, stack, description }) {
               {duration}
             </div>
           </p>
-          <p className="my-2 text-base font-normal  text-slate-400">
-            {description}
-          </p>
+          <div className="flex row-auto ">
+            <div className="flex">
+              {stack.map((item, index) => (
+                <p
+                  key={index}
+                  className="my-2 m-auto p-1 text-sm font-normal  text-slate-400"
+                >
+                  {item}
+                </p>
+              ))}
+            </div>
+          </div>
         </li>
       </ol>
     </>

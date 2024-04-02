@@ -13,7 +13,7 @@ export default [
   },
 
   {
-    id: "#path",
-    title: "path",
+    id: "#edu",
+    title: "education",
   },
 ];

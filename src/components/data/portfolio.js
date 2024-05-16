@@ -1,5 +1,22 @@
 export default [
   {
+    title: "OpenBook Library (eCommerce)",
+    imgUrl: "/assets/Openbook.png",
+    stack: [
+      "React",
+      "JavaScript",
+      "Redux",
+      "Node.JS",
+      "express",
+      "TailwindCSS",
+      "PostGreSQL",
+      "socket.io",
+    ],
+    description:
+      "A fullstack e-commerce web application where I lead the front-end team.",
+    link: "https://github.com/openbookpf/open-book-front",
+  },
+  {
     title: "Taskify (Trello clone)",
     imgUrl: "/assets/Trello.png",
     stack: [

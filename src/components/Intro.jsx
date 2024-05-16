@@ -19,16 +19,12 @@ function Intro() {
             Hi, I'm Lucas Fraggioli
           </h1>
           <h3 className="text-base text-left md:text-2xl mb-3 font-semibold text-[#9568ff] ">
-            Full-Stack Developer | UX/UI Designer
+            Frontend Developer | UX/UI Designer
           </h3>
-          <p className="text-sm text-left pt-3 font-normal text-gray-300">
-            I took my first steps in programming by delving into more
-            challenging languages such as JAVA and C++, laying the groundwork
-            for a solid foundation in my coding journey.
-          </p>
-          <p className="text-sm text-left font-normal text-gray-300">
-            I'm building my version of the world crafted with code, where each
-            line creates a piece of the digital tapestry.
+          <p className="text-sm text-left font-semibold text-gray-300">
+            I want to create applications that make people's lives better, with
+            an accessible and pleasant interface design. That is my main goal
+            when it comes to choosing a new project.
           </p>
           <p className="text-base text-left font-medium pt-1">
             Hope you enjoy what I've been doing so far.

@@ -61,11 +61,11 @@ const images = [
     link: "https://redux.js.org/introduction/getting-started",
   },
   {
-    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/prisma/prisma-original.svg",
-    alt: "Prisma",
+    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/angularjs/angularjs-original.svg",
+    alt: "Angular",
     width: "75",
     height: "75",
-    link: "https://www.prisma.io/docs/",
+    link: "https://angular.io/",
   },
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg",
@@ -75,11 +75,11 @@ const images = [
     link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
   },
   {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    alt: "MongoDB",
+    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/laravel/laravel-original.svg",
+    alt: "Laravel",
     width: "75",
     height: "75",
-    link: "https://www.mongodb.com/",
+    link: "https://laravel.com/docs",
   },
   {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain-wordmark.svg",

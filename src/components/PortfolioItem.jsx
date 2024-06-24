@@ -2,15 +2,15 @@ import React from "react";
 
 function PortfolioItem({ title, imgUrl, stack, description, link }) {
   return (
-    <div className="mx-2 mb-3 hover:ease-in-out duration-200 hover:scale-105 h-auto bg-gray-800 border-slate-400/70 border-0 rounded-md overflow-hidden">
+    <div className="mx-2 w-[480px] mb-3 hover:ease-in-out duration-200 hover:scale-105 h-auto bg-gray-800 border-slate-400/70 border-0 rounded-md overflow-hidden">
       <img
         src={imgUrl}
         alt="portfolio project"
-        className="w-full h-auto md:h-40 object-cover "
+        className="w-full h-40 object-cover "
       />
-      <div className="w-full h-auto p-2 ">
+      <div className="w-full h-auto p-2">
         <div className=" items-center mx-auto justify-center flex">
-          <h3 className="text-lg md:text-xl text-center cursor-auto text-slate-300 mb-2 md:mb-2 font-bold">
+          <h3 className="text-lg text-center cursor-auto text-slate-300 mb-2 md:mb-2 font-bold">
             {title}
           </h3>
           <div className="py-2 px-5 mb-2">
@@ -38,16 +38,16 @@ function PortfolioItem({ title, imgUrl, stack, description, link }) {
           </div>
         </div>
         <div>
-          <p className="grid  grid-cols-5 gap-1 mx-4 justify-center text-xs md:text-xs mb-4">
+          <p className="grid grid-cols-4 gap-1 justify-center mb-2">
             {stack.map((item) => (
-              <span className=" p-1 text-center font-normal text-slate-400 bg-gray-900 rounded-lg">
+              <span className="p-1 text-center font-normal text-xs text-slate-400 bg-gray-900 rounded-md">
                 {item}
               </span>
             ))}
           </p>
         </div>
         <div className="flex bg-gray-950/50 mx-4 mb-2 rounded-md">
-          <div className="flex font-normal text-sm  text-center p-2 text-slate-50">
+          <div className="flex font-normal text-xs  text-center p-2 text-slate-50">
             {description}
           </div>
         </div>

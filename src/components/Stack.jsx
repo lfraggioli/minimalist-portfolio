@@ -25,11 +25,11 @@ function Stack() {
               ))}
             </div>
           </div>
-          <div className="text-white justify-center align-middle columns-1 items-center">
+          <div className="text-white justify-center align-middle items-center">
             <p className="text-sm pt-3 border-t-2  border-slate-300/20 mt-2 text-center">
               Other tools I have worked with:
             </p>
-            <div className="columns-5 items-center gap-3 justify-center flex-row text-center pt-2 pb-2 text-slate-100">
+            <div className="items-center gap-3 columns-5 justify-center flex-row text-center pt-2 pb-2 text-slate-100">
               {images.map((image, index) => (
                 <a href={image.link} target="a_blank">
                   <img

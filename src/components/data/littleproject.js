@@ -6,10 +6,11 @@ export default [
   //   link: "",
   // },
   {
-    name: "Advent Calendar - 2023",
-    imgUrl: "/assets/advent.png",
-    stack: ["JavaScript"],
-    link: "https://github.com/lfraggioli/adventJS-2023",
+    name: "SpaceX Launches",
+    imgUrl: "/assets/spaceX_launches.png",
+    stack: ["Astro", "TypeScript", "TailwindCSS", "SpaceX API"],
+    description: "A web app that displays SpaceX launches",
+    link: "https://github.com/lfraggioli/spaceX-launches",
   },
   {
     name: "My Codewars' Kata Practice",

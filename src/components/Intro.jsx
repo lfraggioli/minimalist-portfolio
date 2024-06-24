@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/avatar.jpg";
 import CVButtonDownload from "./cvButton/CVButtonDownload";
+import ResumeButtonDownload from "./cvButton/ResumeButtonDownload";
 function Avatar() {
   return (
     <img
@@ -29,8 +30,9 @@ function Intro() {
           <p className="text-base text-left font-medium pt-1">
             Hope you enjoy what I've been doing so far.
           </p>
-          <div className="columns-2 mx-auto flex items-start">
+          <div className="columns-2 gap-2 mx-auto flex items-start">
             <CVButtonDownload />
+            <ResumeButtonDownload />
           </div>
         </div>
 

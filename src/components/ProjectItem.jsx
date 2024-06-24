@@ -9,17 +9,17 @@ const ProjectItem = ({ name, imgUrl, stack, link }) => {
         className="w-full h-36 md:h-42 object-cover"
       />
       <div className="w-full p-2 mx-auto">
-        <div className="columns-2 items-center mx-auto justify-center flex">
-          <h3 className="text-lg md:text-xl text-center cursor-auto text-slate-300 mb-2 md:mb-2 font-bold">
+        <div className="flex-row items-center mx-auto justify-center flex">
+          <h3 className="text-base text-center cursor-auto text-slate-300 mb-2 md:mb-2 font-bold">
             {name}
           </h3>
-          <div className="py-2 px-5 mb-4">
+          <div className="py-2 px-2 mb-2">
             <a href={link} className="cursor-pointer" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon icon-tabler icon-tabler-brand-github-filled duration-200 hover:scale-125"
-                width={24}
-                height={24}
+                width={16}
+                height={16}
                 viewBox="0 0 24 24"
                 strokeWidth={2}
                 stroke="currentColor"
@@ -38,7 +38,7 @@ const ProjectItem = ({ name, imgUrl, stack, link }) => {
           </div>
         </div>
 
-        <p className="flex flex-wrap mx-auto gap-2 flex-row text-gray-300 justify-center text-xs md:text-xs">
+        <p className="flex flex-wrap mx-auto gap-1 flex-row text-gray-300 justify-center text-xs">
           {stack.map((item) => (
             <span className=" px-2 py-1 font-semibold bg-slate-950 mb-3  shadow-md rounded-lg">
               {item}

@@ -41,13 +41,7 @@ export default [
     description: "A Pokédex that renders Pokémon data from an API",
     link: "https://github.com/lfraggioli/PI_pokemon",
   },
-  {
-    title: "SpaceX Launches",
-    imgUrl: "/assets/spaceX_launches.png",
-    stack: ["Astro", "React", "TypeScript", "TailwindCSS", "SpaceX API"],
-    description: "A web app that displays SpaceX launches",
-    link: "https://github.com/lfraggioli/spaceX-launches",
-  },
+
   {
     title: "Rick & Morty Web App",
     imgUrl: "/assets/rick_and_morty.png",

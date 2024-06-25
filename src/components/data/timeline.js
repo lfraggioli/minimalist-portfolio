@@ -13,24 +13,9 @@ export default [
     duration: "3 years",
     stack: ["C++", "Java", "SQL", "Linux", "HTML", "CSS"],
   },
+
   {
     id: 5,
-    year: 2023,
-    title: "Full Stack Developer - CPCI",
-    duration: "6 months",
-    stack: [
-      "PHP",
-      "Laravel",
-      "MySQL",
-      "Figma",
-      "Bootstrap",
-      "Blade",
-      "TypeScript",
-      "Git",
-    ],
-  },
-  {
-    id: 6,
     year: 2023,
     title: "Full Stack Developer Bootcamp - soyHenry.com",
     duration: "1 year",
@@ -51,8 +36,15 @@ export default [
   {
     id: 7,
     year: 2024,
-    title: "Diseño UX/UI - Codo a Codo 4.0",
-    duration: "1 year",
-    stack: ["Figma", "UX/UI Design", "Graphic Design"],
+    title: "Google UX/UI Designer - Coursera",
+    duration: "6 months",
+    stack: ["Figma", "UX/UI Design", "UX Research", "Graphic Design"],
+  },
+  {
+    id: 8,
+    year: 2024,
+    title: "Oracle ONE - Alura",
+    duration: "6 months",
+    stack: ["Java", "Spring", "Backend Development"],
   },
 ];

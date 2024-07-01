@@ -34,6 +34,23 @@ export default [
     link: "https://github.com/lfraggioli/trello-clone",
   },
   {
+    title: "Sphera",
+    imgUrl: "/assets/sphera.png",
+    stack: [
+      "Figma",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "UX research",
+      "Wireframing",
+      "UX/UI Design",
+      "Prototype",
+      "Case Study",
+    ],
+    description:
+      "UX/UI Project for Argentinian Players to search for nearby pitches where to play and create soccer teams with other users.",
+    link: "https://www.figma.com/design/zcdzGikx8nwSOhsT7c2zC1/SPHERA_Lucas-Fraggioli-y-Roc%C3%ADo-Fr%C3%ADas?node-id=1-8&t=9MjBT0bazJKPpgVi-1",
+  },
+  {
     title: "What to Play",
     imgUrl: "/assets/whattoplay.png",
     stack: ["React", "TailwindCSS", "JavaScript", "PostGreSQL"],

@@ -33,20 +33,18 @@ export default [
       "A Trello clone with drag and drop functionality, authentication, and payment integration.",
     link: "https://github.com/lfraggioli/trello-clone",
   },
-
+  {
+    title: "What to Play",
+    imgUrl: "/assets/whattoplay.png",
+    stack: ["React", "TailwindCSS", "JavaScript", "PostGreSQL"],
+    description: "A helpful tool to help me when I don't know what to play",
+    link: "https://github.com/lfraggioli/WhatToPlay",
+  },
   {
     title: "Pokédex",
     imgUrl: "/assets/pokedex.png",
-    stack: ["React", "Redux", "Node", "Express", "sequelize", "PostGreSQL"],
+    stack: ["React", "Redux", "Node.JS", "Express", "sequelize", "PostGreSQL"],
     description: "A Pokédex that renders Pokémon data from an API",
     link: "https://github.com/lfraggioli/PI_pokemon",
-  },
-
-  {
-    title: "Rick & Morty Web App",
-    imgUrl: "/assets/rick_and_morty.png",
-    stack: ["React", "Redux", "Node", "Express", "sequelize"],
-    description: "A web app that renders Rick & Morty characters",
-    link: "https://github.com/lfraggioli/rick_and_morty",
   },
 ];

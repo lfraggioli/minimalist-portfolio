@@ -6,6 +6,13 @@ export default [
   //   link: "",
   // },
   {
+    name: "Rick & Morty Web App",
+    imgUrl: "/assets/rick_and_morty.png",
+    stack: ["React", "Redux", "Node", "Express", "sequelize"],
+    description: "A web app that renders Rick & Morty characters",
+    link: "https://github.com/lfraggioli/rick_and_morty",
+  },
+  {
     name: "SpaceX Launches",
     imgUrl: "/assets/spaceX_launches.png",
     stack: ["Astro", "TypeScript", "TailwindCSS", "SpaceX API"],
